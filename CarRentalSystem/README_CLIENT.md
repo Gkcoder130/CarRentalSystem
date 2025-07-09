@@ -61,15 +61,15 @@ Below are sample outputs from the Car Rental System as seen in the terminal:
 
 **Build Success:**
 
-![Build Success](build_success.png)
+![Build Success](Screenshot%202025-07-09%20203627.png)
 
 **Admin Menu:**
 
-![Admin Menu](admin_menu.png)
+![Admin Menu](Screenshot%202025-07-09%20203728.png)
 
 **User Menu:**
 
-![User Menu](user_menu.png)
+![User Menu](Screenshot%202025-07-09%20204017.png)
 
 To add your own screenshots, simply take a screenshot of your terminal and save it in the project folder with the names above, or update the links to match your filenames.
 
