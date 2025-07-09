@@ -31,37 +31,6 @@ CarRentalSystem/
 Before running the app, ensure you have PostgreSQL installed and running.  
 Ask your IT team for help if you’re unsure how to do this.
 
-**Example Table Structure:**
-
-```sql
-CREATE TABLE IF NOT EXISTS car (
-    id SERIAL PRIMARY KEY,
-    model VARCHAR(100),
-    brand VARCHAR(100),
-    year INT,
-    available BOOLEAN DEFAULT TRUE,
-    price_per_day DECIMAL(10,2)
-);
-
-CREATE TABLE IF NOT EXISTS customer (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    phone VARCHAR(20),
-    email VARCHAR(100)
-);
-
-CREATE TABLE IF NOT EXISTS rental (
-    id SERIAL PRIMARY KEY,
-    car_id INT REFERENCES car(id) ON DELETE CASCADE,
-    customer_id INT REFERENCES customer(id) ON DELETE CASCADE,
-    start_date DATE,
-    end_date DATE,
-    total_price DECIMAL(10,2)
-);
-```
-
----
-
 ## 💡 How to Run
 
 1. **Open a terminal and go to the project folder**
