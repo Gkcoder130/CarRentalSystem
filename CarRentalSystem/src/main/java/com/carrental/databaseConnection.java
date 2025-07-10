@@ -6,7 +6,7 @@ public class databaseConnection {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/carrentaldb";
         String user = "postgres";
-        String password = "gaurav"; // <-- change this
+        String password = "gaurav"; 
 
         try {
             Connection con = DriverManager.getConnection(url, user, password);
