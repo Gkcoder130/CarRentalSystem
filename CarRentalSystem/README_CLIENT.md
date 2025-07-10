@@ -73,8 +73,6 @@ Below are sample outputs from the Car Rental System as seen in the terminal:
 
 ![User Menu](Screenshot%202025-07-09%20203728.png)
 
-To add your own screenshots, simply take a screenshot of your terminal and save it in the project folder with the names above, or update the links to match your filenames.
-
 ---
 
 ## 👤 User Instructions
