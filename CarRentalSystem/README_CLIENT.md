@@ -106,7 +106,7 @@ If you have any questions or issues, please contact your system administrator or
 
 - All data is safely stored in PostgreSQL.
 - You can customize the database connection in `databaseConnection.java` if needed.
-- For advanced features or changes, contact your developer or IT support.
+- For advanced features or changes, contact your developer or IT support
 
 ---
 
